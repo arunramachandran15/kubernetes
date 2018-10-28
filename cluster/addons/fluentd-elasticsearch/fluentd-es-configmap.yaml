@@ -434,8 +434,8 @@ data:
       @log_level info
       type_name fluentd
       include_tag_key true
-      host elasticsearch-logging
-      port 9200
+      host search-myelasticclusterdomain-7hckxl22cvvantktbyvtudfh74.us-east-1.es.amazonaws.com
+      port 80
       logstash_format true
       <buffer>
         @type file
